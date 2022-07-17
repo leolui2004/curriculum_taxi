@@ -43,7 +43,8 @@ def action_curiosity(curiosity, action_space, action):
 
 Customizing Reward and decision for Done
 
-```def done_stage_process(state_list, reward, done_stage, done):
+```
+def done_stage_process(state_list, reward, done_stage, done):
     done_ = 0
     reward_ = 0
     
